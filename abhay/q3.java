@@ -1,10 +1,12 @@
+package abhay;
+
 import java.util.Scanner;
 
 public class q3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the number of people: ");
+        System.out.print("Enter the number of people : ");
         int numPeople = scanner.nextInt();
 
         int result = calculateHandshakes(numPeople);

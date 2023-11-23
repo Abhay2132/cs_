@@ -8,4 +8,4 @@ fi
 
 mkdir -p out
 
-javac $name.java -d out && cd out && java $name
+javac ./abhay/*.java -d out && cd out && java abhay.$name
