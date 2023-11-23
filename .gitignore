@@ -2,3 +2,4 @@ javafx-sdk/
 jfx/
 swing/
 *.class
+out/

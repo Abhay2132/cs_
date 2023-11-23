@@ -1,0 +1,11 @@
+name=$1
+
+if [ ! $name ]
+then
+  echo "Error : filename not given !"
+  exit
+fi
+
+mkdir -p out
+
+javac $name.java -d out && cd out && java $name
